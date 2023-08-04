@@ -11,5 +11,5 @@ test ("validar cpf", function(){
 
 test ("validar cpf", function () {
     var valida = validarCPF("01234567891");
-    expect(cpf).toBe(false);
+    expect(valida).toBe(false);
 })
